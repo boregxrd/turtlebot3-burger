@@ -7,5 +7,5 @@ def generate_launch_description():
             package='my_first_service',
             executable='movement_server',
             output='screen'
-        ),
+        )
     ])

@@ -1,0 +1,5 @@
+float64 radius       # Radio de la trayectoria
+float64 speed        # Velocidad lineal
+string direction     # "left" o "right"
+---
+bool success
