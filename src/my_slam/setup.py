@@ -1,6 +1,7 @@
+import os
 from setuptools import setup
-import os #incluir
 from glob import glob #incluir
+
 
 package_name = 'my_slam'
 
@@ -17,12 +18,11 @@ setup(
         (os.path.join('share', package_name, 'rviz'), glob('rviz/*.rviz')),#incluir
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),#incluir
         (os.path.join('share', package_name, 'config'), glob('config/*.lua')),#incluir
-
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='asperez@upv.es',
-    maintainer_email='asperez@upv.es',
+    maintainer='manu',
+    maintainer_email='manuelborregales12@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
